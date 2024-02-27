@@ -1,6 +1,6 @@
-## Dashboard Admin Test
+## Spend Management Dashboard
 
-This is a test admin dashboard created using NextJS.
+This is a test spend management dashboard created using NextJS.
 
 ## Requirement
 
