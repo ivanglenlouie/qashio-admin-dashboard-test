@@ -22,4 +22,4 @@ npm install
 npm run dev
 ```
 
-- Open [http://localhost:3000], then go to [http://localhost:3000/dashboard/transactions/overview] for the Admin dashboard with searchable and paginated data.
+- Open [http://localhost:3000/dashboard], then go to [http://localhost:3000/dashboard/transactions/overview] for the Admin dashboard with searchable and paginated data.
