@@ -8,6 +8,8 @@ This is a test admin dashboard created using NextJS.
 
 ## Instructions
 
+Here are the instructions to get you started.
+
 - Run
 
 ```bash
@@ -20,4 +22,4 @@ npm install
 npm run dev
 ```
 
--Open [http://localhost:3000], then go to [http://localhost:3000/dashboard/transactions/overview] for the Admin dashboard with searchable and paginated data.
+- Open [http://localhost:3000], then go to [http://localhost:3000/dashboard/transactions/overview] for the Admin dashboard with searchable and paginated data.
