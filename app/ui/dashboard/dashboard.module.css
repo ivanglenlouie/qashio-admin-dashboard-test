@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  margin-top: 10px;
+  height: 100%;
+  gap: 10px;
+}
+
+.containerEmpty{
+  display: flex;
+  height: 100vh;
+  gap: 10px;
+  background-color: var(--gray);
+  padding: 1.5em;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.menu {
+  flex: 1;
+  background-color: var(--gray);
+  padding: 60px 20px 20px 20px;
+  border-top-right-radius: 20px;
+  position: sticky!important;
+  overflow: hidden auto;
+}
+
+.content {
+  flex: 4;
+  border: 2px solid var(--border-gray);
+  border-radius: 20px;
+}

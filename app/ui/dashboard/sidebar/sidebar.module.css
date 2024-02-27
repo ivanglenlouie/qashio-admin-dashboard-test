@@ -1,0 +1,8 @@
+.container {
+  position: fixed;
+  color: var(--text-gray);
+}
+
+.list {
+  list-style: none;
+}

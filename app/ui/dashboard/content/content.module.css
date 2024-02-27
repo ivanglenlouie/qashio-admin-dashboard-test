@@ -1,0 +1,146 @@
+.container {
+  background-color: var(--gray);
+  padding: 1.5em;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.content {
+  padding: 10px 1.5em 1.5em 1.5em;
+}
+
+.balanceHeader {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  width: 100%;
+  height: 5px;
+}
+
+.progressWrap {
+  background: #59B089;
+  margin: 20px 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+}
+
+.progressWrap .progressBar {
+  background: #ddd;
+  left: 200px;
+  top: 0;
+  position: absolute;
+}
+
+.balanceTwo {
+  display: flex;
+}
+
+.nextPayment {
+  flex: 1;
+}
+
+.availCashback {
+  flex: 2;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card {
+  background: var(--gray);
+  padding: 20px 60px 20px 20px;
+  border-radius: 20px;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  /* border: 2px var(--border-gray) solid; */
+  /* border-radius: 20px; */
+}
+
+.table thead tr{
+  background: var(--gray);
+}
+
+.table td {
+  padding: 20px;
+  border: 2px var(--border-gray) solid;
+}
+.userImage {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  color: var(--gray);
+  outline: none;
+}
+.searchForms {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px 15px 0px;
+  border-radius: 10px;
+}
+.datepicker {
+  width: 50px!important;
+}
+.dollar {
+  border-radius: 50px;
+  border: 2px solid var(--gray);
+  padding: 12px;
+}
+.download {
+  border: solid 2px #59B089;
+  border-radius: 30px;
+  padding: 12px 20px 12px 20px;
+}
+.searchFormInput {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 5px;
+  border-radius: 20px;
+  width: max-content;
+  border: 2px solid var(--border-gray);
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: var(--gray);
+  font-size: 15px;
+}
+
+.select {
+  border-radius: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.numbers {
+  flex: 2;
+  text-align: right;
+}
+
+.numbers button{
+  border-radius: 50%;
+  border: #80808029 2px solid;
+  margin: 10px;
+  width: 35px;
+  height: 35px;
+  color: var(--text-gray);
+}
